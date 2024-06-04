@@ -53,25 +53,25 @@ make install
 
 The code is modular. First, the individual classes are defined to set up the simulation parameters, domain, transducer properties, initial condition. Then passed them to the `FullwaveSolver` class to construct the simulation.
 
-For more information, please refer th the [Examples](https://github.com/gfpinton/fullwave_python/tree/main/examples).
+For more information, please refer th the [Examples](https://github.com/pinton-lab/fullwave_python/tree/main/examples).
 
 we provided
 
 ### transabdominal ultrasound simulation with plane wave sequence using linear transducer (L12-5)
 
-- [ex_plane_wave_linear_transducer_transabdominal_imaging](https://github.com/gfpinton/fullwave_python/blob/main/examples/ex_plane_wave_linear_transducer_transabdominal_imaging.py)
+- [ex_plane_wave_linear_transducer_transabdominal_imaging](https://github.com/pinton-lab/fullwave_python/blob/main/examples/ex_plane_wave_linear_transducer_transabdominal_imaging.py)
 
 ![plane wave](/figs/plane_wave_anim.gif "Title")
 
 ### transabdominal ultrasound simulation with focused sequence using linear transducer (L12-5)
 
-- [ex_focused_linear_transducer_transabdominal_imaging](https://github.com/gfpinton/fullwave_python/blob/main/examples/ex_focused_linear_transducer_transabdominal_imaging.py)
+- [ex_focused_linear_transducer_transabdominal_imaging](https://github.com/pinton-lab/fullwave_python/blob/main/examples/ex_focused_linear_transducer_transabdominal_imaging.py)
 
 ![focused sequence](/figs/focus_anim.gif "Title")
 
 ### transabdominal ultrasound simulation with Full synthetic aperture using convex transducer (C5-2V)
 
-- [ex_fsa_convex_transducer_transabdominal_imaging](https://github.com/gfpinton/fullwave_python/blob/main/examples/ex_fsa_convex_transducer_transabdominal_imaging.py)
+- [ex_fsa_convex_transducer_transabdominal_imaging](https://github.com/pinton-lab/fullwave_python/blob/main/examples/ex_fsa_convex_transducer_transabdominal_imaging.py)
 
 ![FSA](/figs/fsa_anim.gif "Title")
 
