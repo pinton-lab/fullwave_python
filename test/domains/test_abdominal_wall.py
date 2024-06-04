@@ -33,7 +33,8 @@ class AbdominalWallMod(AbdominalWall):
         background_domain_properties="water",
         use_smoothing=False,
         skip_i0=True,
-        is_fsa=False,
+        sequence_type="focused",
+        use_center_region=False,
         ppw=12,
     ):
         self.crop_depth = crop_depth
@@ -50,7 +51,8 @@ class AbdominalWallMod(AbdominalWall):
         self.apply_tissue_compression = apply_tissue_compression
         self.use_smoothing = use_smoothing
         self.skip_i0 = skip_i0
-        self.is_fsa = is_fsa
+        self.sequence_type = sequence_type
+        self.use_center_region = use_center_region
         self.ppw = ppw
         self.background_domain_properties = background_domain_properties
 
@@ -146,7 +148,7 @@ def build_full_instance_fsa():
         apply_tissue_compression=True,
         use_smoothing=False,
         skip_i0=True,
-        sequence_type=True,
+        sequence_type="fsa",
     )
     return domain
 
@@ -182,8 +184,9 @@ def build_full_instance_linear_tx(
         apply_tissue_compression=apply_tissue_compression,
         use_smoothing=use_smoothing,
         skip_i0=skip_i0,
-        is_fsa=is_fsa,
+        sequence_type="focused",
         background_domain_properties="lung_fluid",
+        use_center_region=True,
     )
     return abdominal_wall
 
