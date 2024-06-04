@@ -159,7 +159,8 @@ inputs
 
 exp_dir*/*
 *.mat
-fullwave2_try*
 !bin/*
 outputs/*
 !outputs/.keep
+test/**/fullwave2_try*
+test/**/report.txt
