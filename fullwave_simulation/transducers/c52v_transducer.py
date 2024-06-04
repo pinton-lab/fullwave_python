@@ -12,10 +12,10 @@ class C52VTransducer(Transducer):
         self,
         simulation_params: Constant,
         material_properties: Constant,
-        rho0=1120,
+        rho0=1000,
         beta0=0,
-        c0=1613,
-        a0=1.57,
+        c0=1540,
+        a0=0.5,
         element_pitch=0.000508,
     ):
         super().__init__(
