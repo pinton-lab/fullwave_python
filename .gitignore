@@ -164,3 +164,4 @@ outputs/*
 !outputs/.keep
 test/**/fullwave2_try*
 test/**/report.txt
+!fullwave_simulation/domains/data/abdominal_wall/i2365f_etfw1.mat
