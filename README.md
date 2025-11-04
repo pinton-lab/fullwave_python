@@ -1,5 +1,12 @@
 # Fullwave 2 simulation python wrapper
 
+---
+
+This repository has been archived.
+Please use [Fullwave 2.5](https://github.com/pinton-lab/fullwave25) instead.
+
+---
+
 Python wrapper for the Fullwave 2 simulation.
 
 [Fullwave 2](http://arxiv.org/abs/2106.11476
