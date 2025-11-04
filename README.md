@@ -2,8 +2,10 @@
 
 ---
 
-This repository has been archived.
-Please use [Fullwave 2.5](https://github.com/pinton-lab/fullwave25) instead.
+${\color{red}\text{This repository has been archived.}}$
+
+${\color{red}\text{Please use}}$ [Fullwave 2.5](https://github.com/pinton-lab/fullwave25)
+${\color{red}\text{instead.}}$
 
 ---
 
